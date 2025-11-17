@@ -670,6 +670,7 @@ set(DISSECTOR_PUBLIC_HEADERS
 	packet-x509if.h
 	packet-x509sat.h
 	packet-xdlc.h
+	packet-xgt.h
 	packet-xml.h
 	packet-xmpp-conference.h
 	packet-xmpp-core.h
@@ -2160,6 +2161,7 @@ set(DISSECTOR_SRC
 	${CMAKE_CURRENT_SOURCE_DIR}/packet-xcsl.c
 	${CMAKE_CURRENT_SOURCE_DIR}/packet-xdlc.c
 	${CMAKE_CURRENT_SOURCE_DIR}/packet-xdmcp.c
+	${CMAKE_CURRENT_SOURCE_DIR}/packet-xgt.c
 	${CMAKE_CURRENT_SOURCE_DIR}/packet-xip.c
 	${CMAKE_CURRENT_SOURCE_DIR}/packet-xip-serval.c
 	${CMAKE_CURRENT_SOURCE_DIR}/packet-xmcp.c
